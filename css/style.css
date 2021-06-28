@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	padding: 10px 0; 
+	border-bottom :1px solid #EBEDF1;
+
+}
+.container{
+	overflow: hidden;
+	width: 90%;
+	/*border: 1px solid;*/
+	margin: 0 auto;
+
+}
+.logo{
+	float: left;
+	width: 10%;
+	/*border: 1px solid red;*/
+}
+.logo a{
+
+}
+.logo a img{
+	width: 100%;
+
+}
+.menu{
+	float: right;
+	width: 40%;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+	float: right;
+	list-style: none;
+
+}
+.menu ul li{
+	float: left;
+
+
+}
+.menu ul li a{
+		text-decoration: none;
+		margin: 0px 15px;
+		display: inline-block;
+		font-size: 18px;
+		color: #0f2656; 
+		text-transform: capitalize;
+}
+.menu ul li a:hover{
+	color: #008AFF;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*header end*/
+
+/*header2 start*/
+header{
+	padding: 10px 0;
+	border-bottom: 1px solid #EBEDF1;
+}
+.container2{
+	overflow: hidden;
+	/*border: 1px solid red;*/
+	width: 90%;
+	margin: 0 auto;
+}
+.logo2{
+	width: 10%;
+	/*border: 1px solid red;*/ 
+	float: left;
+	
+}
+.logo2 a img{
+	width: 100%;
+}
+
+.menu2{
+	width: 40%;
+	/*border: 1px solid red;*/
+	float: right;
+	
+}
+.menu2 ul{
+	float: right;
+}
+.menu2 ul li{
+	list-style: none;
+	float: left;
+	
+}
+.menu2 ul li a{
+	text-decoration: none;
+	margin: 0 15px;
+	display: inline-block;
+	font-size: 18px;
+	color: 	#0f2656;
+	text-transform: capitalize;
+}
+.menu2 ul li a:hover{
+	color: #008AFF;
+}
+.menu2 ul li:last-child a{
+	margin-right: 0; 
+}
